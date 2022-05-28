@@ -1,8 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 :root {
   --primary-text-color: #757575;
   --titel-text-color: #212121;
   --link-text-color: #2196f3;
   --primary-bg-color: #ffffff;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+ul,
+ol {
+  margin: 0px;
+  padding-left: 0px;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -16,6 +53,8 @@ h1 {
 .list,
 .filtr {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 .link,
 .nav-link,
@@ -29,6 +68,10 @@ h1 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .heder-logo {
   color: #2196f3;
@@ -54,6 +97,8 @@ h1 {
 
 .about-title {
   color: var(--titel-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -89,14 +134,19 @@ h1 {
 }
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
+
 .hero-title {
   color: #ffffff;
+  /* margin-top: 0px;
+  margin-bottom: 30px; */
+  padding: 200px 452px 280px 452px;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
 }
 .hero-button {
@@ -114,9 +164,11 @@ h1 {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 200px;
   border-radius: 4px;
   padding: 10px 32px;
   text-align: center;
+  border: 1px solid transparent;
 }
 .section-team {
   background-color: #f5f4fa;
@@ -181,6 +233,9 @@ h1 {
   font-weight: 500;
 
   line-height: 1.62;
+}
+.filtr-list {
+  margin-bottom: 50px;
 }
 .portfolio-title {
   color: var(--titel-text-color);
