@@ -11,6 +11,7 @@ html {
   --titel-text-color: #212121;
   --link-text-color: #2196f3;
   --primary-bg-color: #ffffff;
+  --typikal-margin: 30px;
 }
 * {
   margin: 0px;
@@ -26,6 +27,9 @@ h4,
 h5,
 h6 {
   margin: 0px;
+}
+img {
+  display: block;
 }
 ul,
 ol {
@@ -89,21 +93,32 @@ h1 {
 
   text-transform: uppercase;
 }
-
+.singularity {
+  padding: 94px 15px 94px 15px;
+}
 .singularity-text {
   font-size: 14px;
   line-height: 1.71;
 }
+.about {
+  padding: 0px 15px 94px 15px;
+}
 
 .about-title {
   color: var(--titel-text-color);
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding-bottom: 50px;
+  padding-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.about-list {
+  padding-bottom: 94px;
 }
 .nav-link,
 .header-mail,
@@ -139,9 +154,9 @@ h1 {
 
 .hero-title {
   color: #ffffff;
-  /* margin-top: 0px;
-  margin-bottom: 30px; */
-  padding: 200px 452px 280px 452px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 200px 250px 30px 250px;
 
   font-weight: 900;
   font-size: 44px;
@@ -173,6 +188,9 @@ h1 {
 .section-team {
   background-color: #f5f4fa;
 }
+.names-img {
+  padding-bottom: var(--typikal-margin);
+}
 
 .names-titel {
   color: var(--titel-text-color);
@@ -180,10 +198,12 @@ h1 {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  padding-bottom: 10px;
 }
 .worker-text {
   line-height: 1.19;
   text-align: center;
+  padding-bottom: var(--typikal-margin);
 }
 
 .footer {
