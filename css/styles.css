@@ -324,6 +324,11 @@ h1 {
   margin-bottom: 9px;
 }
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .filtr a {
   color: #212121;
   background-color: #f5f4fa;
@@ -350,6 +355,7 @@ h1 {
 .filtr-list {
   display: flex;
   justify-content: center;
+
   margin-bottom: 50px;
 }
 .filtr-list .list + .list {
