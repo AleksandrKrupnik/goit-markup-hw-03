@@ -182,9 +182,9 @@ h1 {
 
   margin-left: auto;
 }
-.header-adress .header-item + .header-item {
+/* .header-adress .header-item + .header-item {
   margin-left: 50px;
-}
+} */
 .header-adress a {
   color: var(--primary-text-color);
 }
@@ -207,7 +207,6 @@ h1 {
   color: #ffffff;
   margin-top: 0px;
   margin-bottom: 30px;
-  padding: 200px 250px 30px 250px;
 
   font-weight: 900;
   font-size: 44px;
