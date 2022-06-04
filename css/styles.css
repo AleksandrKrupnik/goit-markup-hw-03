@@ -243,9 +243,11 @@ h1 {
 }
 .section-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .names-img {
-  padding-bottom: var(--typikal-margin);
+  margin-bottom: var(--typikal-margin);
 }
 .cards {
   display: flex;
@@ -265,9 +267,6 @@ h1 {
   margin-bottom: 0px;
 }
 .team-list {
-  padding-top: 50px;
-  padding-bottom: 94px;
-
   display: flex;
 }
 .card-item {
@@ -283,12 +282,12 @@ h1 {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .worker-text {
   line-height: 1.19;
   text-align: center;
-  padding-bottom: var(--typikal-margin);
+  margin-bottom: var(--typikal-margin);
 }
 
 .footer {
