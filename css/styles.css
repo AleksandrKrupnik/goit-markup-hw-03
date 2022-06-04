@@ -13,12 +13,7 @@ html {
   --primary-bg-color: #ffffff;
   --typikal-margin: 30px;
 }
-* {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  box-sizing: border-box;
-}
+
 p,
 h1,
 h2,
@@ -76,8 +71,7 @@ h1 {
   line-height: 1.19;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  border-bottom: 1px solid;
 }
 .heder-logo {
   color: #2196f3;
