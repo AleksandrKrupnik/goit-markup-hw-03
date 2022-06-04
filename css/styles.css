@@ -95,7 +95,8 @@ h1 {
   text-transform: uppercase;
 }
 .singularity {
-  padding: 94px 15px 32px 15px;
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 .singularity-list {
   display: flex;
@@ -118,13 +119,14 @@ h1 {
   margin-bottom: 10px;
 }
 .about {
-  padding: 0px 15px 94px 15px;
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
 .about-title {
   color: var(--titel-text-color);
-  padding-bottom: 50px;
-  padding-top: 47px;
+  margin-bottom: 50px;
+
   margin-left: auto;
   margin-right: auto;
 
@@ -135,8 +137,6 @@ h1 {
   letter-spacing: 0.03em;
 }
 .about-list {
-  padding-bottom: 94px;
-
   display: flex;
 }
 .about-item {
