@@ -69,6 +69,8 @@ h1 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  margin-right: 93px;
 }
 .header {
   border-bottom: 1px solid;
@@ -83,7 +85,6 @@ h1 {
   color: var(--titel-text-color);
 }
 .header-list {
-  margin-left: 93px;
   display: flex;
 }
 .section-title {
