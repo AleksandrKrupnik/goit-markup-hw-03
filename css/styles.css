@@ -176,11 +176,11 @@ h1 {
   align-items: center;
   /* justify-content: space-between; */
 }
-.adress-conteiner {
-  margin-left: auto;
-}
+
 .header-adress {
   display: flex;
+
+  margin-left: auto;
 }
 .header-adress .header-item + .header-item {
   margin-left: 50px;
