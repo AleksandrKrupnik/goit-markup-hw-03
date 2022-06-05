@@ -246,9 +246,7 @@ h1 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.names-img {
-  margin-bottom: var(--typikal-margin);
-}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -272,6 +270,10 @@ h1 {
 }
 .card-item:last-child {
   margin: 0;
+}
+.card {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .names-titel {
