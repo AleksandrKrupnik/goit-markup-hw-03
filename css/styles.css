@@ -287,7 +287,6 @@ h1 {
 .worker-text {
   line-height: 1.19;
   text-align: center;
-  margin-bottom: var(--typikal-margin);
 }
 
 .footer {
@@ -343,15 +342,26 @@ h1 {
   color: var(--primary-bg-color);
   background-color: var(--link-text-color);
 }
+
+.filtr-cards {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
 .filtr {
   font-family: inherit;
   color: var(--titel-text-color);
   font-size: 16px;
-
   font-weight: 500;
-
   line-height: 1.62;
+
+  border: none;
+  border-radius: 4px;
+
+  padding: 6px 22px;
 }
+
 .filtr-list {
   display: flex;
   justify-content: center;
@@ -367,6 +377,7 @@ h1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-bottom: 4px;
 }
 .portfolio-text {
   color: var(--primary-text-color);
