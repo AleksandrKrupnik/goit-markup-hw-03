@@ -274,6 +274,9 @@ h1 {
 .card {
   padding-top: 30px;
   padding-bottom: 30px;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
 }
 
 .names-titel {
